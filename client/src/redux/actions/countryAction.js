@@ -1,12 +1,13 @@
 import axios from 'axios';
 import { TYPES } from './types.js'
 
+const { REACT_APP_URL } = process.env
 
 
 export function getCountries() {
     return async function(dispatch) {
         try {
-            const json = await axios.get('http://localhost:3001/countries');
+            const json = await axios.get(`${REACT_APP_URL}/countries`);
             
             // console.log("getCountries():", json.data)
             return dispatch(
@@ -26,7 +27,7 @@ export function getCountries() {
 export function getCountryName(name) {
     return async function(dispatch) {
         try {
-            const json = await axios.get(`http://localhost:3001/countries?name=${name}`);
+            const json = await axios.get(`${REACT_APP_URL}/countries?name=${name}`);
 
             console.log("getCountriesName(name):", json.data)
             return dispatch (
@@ -53,7 +54,7 @@ export function getCountryName(name) {
 export function getDetails(id) {
     return async function(dispatch) {
         try {
-            const json = await axios.get(`http://localhost:3001/countries/${id}`);
+            const json = await axios.get(`${REACT_APP_URL}/countries/${id}`);
             
             console.log("getDetails(id):", json.data)
             return dispatch(
