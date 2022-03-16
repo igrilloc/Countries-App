@@ -1,0 +1,84 @@
+.conteinerDetails {
+    display: flex;
+    margin: auto;
+    background-image: url('https://images3.alphacoders.com/736/736786.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.detailsProps {
+    margin: 1rem;
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    display: -webkit-box;
+    margin-bottom: 25px;
+    justify-content: space-around;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px rgb(255 255 255 / 20%);
+}
+
+.detailsProps:hover {
+	transform: scale(1.0);
+	box-shadow: 0px 0px 15px 0px;
+}
+
+.imgDetails {
+    justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+.propsDetails {
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+}
+
+.propsDetails h2 {
+    margin-top: 10px;
+}
+
+.propsDetails p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.btnBackDetails {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btnBackDetails:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white
+}
+
+.detailsProps h3 {
+    margin-left: 80px;
+    margin-top: 300px;
+    padding: 20px;
+    background-color: rgb(244, 67, 54);
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+}

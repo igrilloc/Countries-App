@@ -1,0 +1,12 @@
+.continentSelector {
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(221, 221, 221, 0.8);
+    color: black;
+    height: 34px;
+    border-radius: 10px;
+    width: 165px;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}

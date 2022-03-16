@@ -1,0 +1,64 @@
+.containerLanding {
+    background-image: url('https://images4.alphacoders.com/260/thumb-1920-260608.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+  
+.landing {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 0%;
+    margin-left: 80px;
+}
+  
+.containerButton {
+    margin-left: 150px;
+}
+  
+.button {
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    animation: moverizquierda 1s ease-in;
+}
+  
+.button:hover {
+    background-color: rgba(150, 150, 150, 0.3);
+    transition: 0.5s;
+    box-shadow: 1px 1px 4px white;
+}
+  
+.titleLanding {
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.600);
+    font-weight: 400px;
+    font-size: 64px;
+    margin-right: 450px;
+    animation: moverizquierda 1s ease-in;
+}
+  
+@keyframes moverizquierda {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+}
+  

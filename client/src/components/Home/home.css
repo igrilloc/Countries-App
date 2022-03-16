@@ -1,0 +1,55 @@
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.containerBodyHome {
+    margin: auto;
+    display: flex;
+    background-image: url('https://images3.alphacoders.com/736/736786.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+.titleHome {
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400px;
+    font-size: 64px;
+    margin-right: 450px;
+}
+
+.containerHome {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+    
+.closebtn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+    box-shadow: 1px 1px 4px white;
+}
+  
+.renderCard {
+    overflow: initial;
+}
+  
+.selectors {
+    display: flex;
+}
+    
+.error404 {
+    padding: 20px;
+    background-color: rgb(244, 67, 54, 0.8);
+    color: white;
+    border-radius: 10px;
+    width: 225px;
+}

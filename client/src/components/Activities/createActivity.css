@@ -1,0 +1,148 @@
+.container-div {
+    margin: auto;
+    background-image: url('https://images7.alphacoders.com/428/thumb-1920-428300.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ffffff80;
+}
+
+.formulario label input {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.formulario label {
+    color: black;
+}
+
+.formulario input {
+    font-family: 'Inter', sans-serif;
+    width: 50%;
+    padding: 4px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.containerMargin {
+    margin-top: 20px;
+
+}
+
+.formulario select {
+    font-family: 'Inter', sans-serif;
+    width: 50%;
+    padding: 4px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.inputsDificultad {
+    width: 24px !important;
+}
+
+.containerInputs {
+    justify-content: center;
+    display: flex;
+}
+
+.formulario p {
+    color: black;
+}
+
+.container-div .crear {
+    font-family: 'Inter', sans-serif;
+    width: 60%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    display : block;
+}
+
+.container-div .crear:hover {
+    background-color: #45a049;
+}
+
+.containerCountries {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 1px;
+    background-color: #ffffff80;
+}
+
+.div-activity {
+    display: flex;
+    justify-content: center;
+}
+
+.errorForm {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    padding: 1px;
+    background-color: rgb(244, 67, 54, 0.8);
+    color: white;
+    width: fit-content;
+    border-radius: 5px
+}
+
+.btnX {
+    margin-right: 3px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    background-color: #f44336cc;
+    width: 2%;
+    margin-top: 16px;
+    height: 2%;
+    border-radius: 5px;
+    padding: 1px
+}
+
+.btnBackForm {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btnBackForm:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white
+}

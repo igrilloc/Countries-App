@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.btnPagination{
+    font-family: 'Inter', sans-serif;
+    background-color: #fffc;
+    color: black;
+    border-radius: 5px;
+    padding: 1px 4px;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btnPagination:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white
+}
